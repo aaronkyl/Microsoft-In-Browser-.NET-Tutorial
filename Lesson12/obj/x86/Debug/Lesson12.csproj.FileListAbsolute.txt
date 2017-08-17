@@ -1,0 +1,5 @@
+/Users/aaronwilkinson/GitHub/Microsoft-In-Browser-.NET-Tutorial/Lesson12/bin/Debug/Lesson12.exe
+/Users/aaronwilkinson/GitHub/Microsoft-In-Browser-.NET-Tutorial/Lesson12/bin/Debug/Lesson12.pdb
+/Users/aaronwilkinson/GitHub/Microsoft-In-Browser-.NET-Tutorial/Lesson12/obj/x86/Debug/Lesson12.csproj.CoreCompileInputs.cache
+/Users/aaronwilkinson/GitHub/Microsoft-In-Browser-.NET-Tutorial/Lesson12/obj/x86/Debug/Lesson12.exe
+/Users/aaronwilkinson/GitHub/Microsoft-In-Browser-.NET-Tutorial/Lesson12/obj/x86/Debug/Lesson12.pdb
