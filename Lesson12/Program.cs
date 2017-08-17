@@ -53,10 +53,8 @@ namespace Lesson12
 
             foreach (var person in contacts)
             {
-                Console.WriteLine($"{person.FirstName} {person.LastName}");
-                Console.WriteLine($"{person.HomeAddress.StreetAddress}");
-                Console.WriteLine($"{person.HomeAddress.City}, {person.HomeAddress.PostalCode}, {person.HomeAddress.State}");
-                Console.WriteLine($"{person.HomeAddress.Country}");
+                person.PrintFullName();
+                person.HomeAddress.PrintAddress();
                 Console.WriteLine();
             }
         }

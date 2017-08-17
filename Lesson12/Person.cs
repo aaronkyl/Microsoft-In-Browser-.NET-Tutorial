@@ -9,6 +9,11 @@ namespace Lesson12
             DateTime DateOfBirth = Convert.ToDateTime(dateOfBirth);
         }
 
+        public void PrintFullName()
+        {
+            Console.WriteLine($"{FirstName} {LastName}");
+        }
+
 		public string FirstName { get; set; } = string.Empty;
 		public string LastName { get; set; } = string.Empty;
 		public DateTime DateOfBirth { get; set; }
