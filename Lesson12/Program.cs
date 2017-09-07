@@ -7,47 +7,11 @@ namespace Lesson12
     {
         public static void Main()
         {
-            Person p1 = new Person("01/14/1985")
-            {
-                FirstName = "Aaron",
-                LastName = "Wilkinson",
-                HomeAddress = new Address()
-                {
-                    StreetAddress = "123 Main St",
-                    City = "Houston",
-                    State = "TX",
-                    PostalCode = 77001,
-                    Country = "United States"
-                }
-            };
+            Person p1 = new Person("Aaron", "Wilkinson", "01/14/1985", "1233", "123 Main St", "Houston", "TX", 77001, "United States");
 
-            Person p2 = new Person("01/01/1980")
-            {
-                FirstName = "Jared",
-                LastName = "Myers",
-				HomeAddress = new Address()
-				{
-					StreetAddress = "456 Main St",
-					City = "Tulsa",
-					State = "OK",
-					PostalCode = 12345,
-					Country = "United States"
-				}
-            };
+            Person p2 = new Person("Jared", "Meyers", "01/01/1980", "1234");
 
-            Person p3 = new Person("01/02/2012")
-            {
-                FirstName = "Mary",
-                LastName = "Smith",
-				HomeAddress = new Address()
-				{
-					StreetAddress = "789 Main St",
-					City = "St. Louis",
-					State = "MO",
-					PostalCode = 98765,
-					Country = "United States"
-				}
-            };
+            Person p3 = new Person("Mary", "Smith", "01/02/2012", "1235", "", "St. Louis");
 
             List<Person> contacts = new List<Person> {p1, p2, p3};
 

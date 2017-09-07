@@ -4,20 +4,31 @@ namespace Lesson12
 {
     public class Person
     {
-        public Person(string dateOfBirth)
+		public string FirstName { get; set; }
+		public string LastName { get; set; }
+		public DateTime DateOfBirth { get; set; }
+		public string TaxPayerId { get; set; }
+		public Address HomeAddress = new Address();
+
+        // Constructor
+        public Person(string firstName, string lastName, string dateOfBirth, string taxPayerId, string streetAddress = "", string city = "", 
+                     string state = "", int postalCode = 0, string country = "")
         {
-            DateTime DateOfBirth = Convert.ToDateTime(dateOfBirth);
+            FirstName = firstName;
+            LastName = lastName;
+            DateOfBirth = Convert.ToDateTime(dateOfBirth);
+            TaxPayerId = taxPayerId;
+            HomeAddress.StreetAddress = streetAddress;
+            HomeAddress.City = city;
+            HomeAddress.State = state;
+            HomeAddress.PostalCode = postalCode;
+            HomeAddress.Country = country;
         }
 
+        // Methods
         public void PrintFullName()
         {
             Console.WriteLine($"{FirstName} {LastName}");
-        }
-
-		public string FirstName { get; set; } = string.Empty;
-		public string LastName { get; set; } = string.Empty;
-		public DateTime DateOfBirth { get; set; }
-		public string TaxPayerId { get; set; } = string.Empty;
-        public Address HomeAddress = new Address();
+        }		
     }
 }

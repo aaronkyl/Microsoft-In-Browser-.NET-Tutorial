@@ -3,3 +3,5 @@
 /Users/aaronwilkinson/GitHub/Microsoft In-Browser .NET Tutorial/Lesson9/obj/x86/Debug/Lesson9.csproj.CoreCompileInputs.cache
 /Users/aaronwilkinson/GitHub/Microsoft In-Browser .NET Tutorial/Lesson9/obj/x86/Debug/Lesson9.exe
 /Users/aaronwilkinson/GitHub/Microsoft In-Browser .NET Tutorial/Lesson9/obj/x86/Debug/Lesson9.pdb
+/Users/aaronwilkinson/GitHub/Microsoft-In-Browser-.NET-Tutorial/Lesson09/obj/x86/Debug/Lesson9.exe
+/Users/aaronwilkinson/GitHub/Microsoft-In-Browser-.NET-Tutorial/Lesson09/obj/x86/Debug/Lesson9.pdb

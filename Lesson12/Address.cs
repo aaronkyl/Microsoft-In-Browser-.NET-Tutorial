@@ -12,9 +12,24 @@ namespace Lesson12
 
         public void PrintAddress()
         {
-			Console.WriteLine($"{StreetAddress}");
-			Console.WriteLine($"{City}, {PostalCode}, {State}");
-			Console.WriteLine($"{Country}");
+            if (String.IsNullOrEmpty(StreetAddress) || String.IsNullOrEmpty(City) 
+                || PostalCode == 0 || String.IsNullOrEmpty(State) 
+                || String.IsNullOrEmpty(Country))
+            {
+                Console.WriteLine("* no full address on file *");
+                if (!(String.IsNullOrEmpty(StreetAddress) && String.IsNullOrEmpty(City)
+                && PostalCode == 0 && String.IsNullOrEmpty(State) && String.IsNullOrEmpty(Country)))
+                {
+                    Console.WriteLine("* partial address below *");
+                    Console.WriteLine($"  {StreetAddress}");
+                    Console.WriteLine($"  {City}, {PostalCode}, {State}");
+                    Console.WriteLine($"  {Country}");
+                }
+            } else {
+                Console.WriteLine($"  {StreetAddress}");
+				Console.WriteLine($"  {City}, {PostalCode}, {State}");
+				Console.WriteLine($"  {Country}");
+            }
         }
     }
 }

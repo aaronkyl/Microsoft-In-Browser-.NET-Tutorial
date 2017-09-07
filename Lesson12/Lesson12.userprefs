@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{76833D15-1352-4406-A343-C8ACD69BFCB8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Person.cs">
     <Files>
-      <File FileName="Program.cs" Line="21" Column="41" />
-      <File FileName="Person.cs" Line="7" Column="42" />
-      <File FileName="Address.cs" Line="12" Column="1" />
+      <File FileName="Program.cs" Line="23" Column="15" />
+      <File FileName="Person.cs" Line="4" Column="2" />
+      <File FileName="Address.cs" Line="18" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Lesson12 PreferredExecutionTarget="MonoDevelop.Default" />
