@@ -14,15 +14,15 @@ namespace Lesson12
         public Person(string firstName, string lastName, string dateOfBirth, string taxPayerId, string streetAddress = "", string city = "", 
                      string state = "", int postalCode = 0, string country = "")
         {
-            FirstName = firstName;
-            LastName = lastName;
-            DateOfBirth = Convert.ToDateTime(dateOfBirth);
-            TaxPayerId = taxPayerId;
-            HomeAddress.StreetAddress = streetAddress;
-            HomeAddress.City = city;
-            HomeAddress.State = state;
-            HomeAddress.PostalCode = postalCode;
-            HomeAddress.Country = country;
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.DateOfBirth = Convert.ToDateTime(dateOfBirth);
+            this.TaxPayerId = taxPayerId;
+            this.HomeAddress.StreetAddress = streetAddress;
+            this.HomeAddress.City = city;
+            this.HomeAddress.State = state;
+            this.HomeAddress.PostalCode = postalCode;
+            this.HomeAddress.Country = country;
         }
 
         // Methods

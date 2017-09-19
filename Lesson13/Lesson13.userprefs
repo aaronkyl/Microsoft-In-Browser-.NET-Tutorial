@@ -1,12 +1,10 @@
-﻿<Properties StartupConfiguration="{76833D15-1352-4406-A343-C8ACD69BFCB8}|Default">
+﻿<Properties StartupConfiguration="{3A2F73C4-3C28-4C13-8046-FA1E5B0CA84F}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="21" Column="51" />
-      <File FileName="Person.cs" Line="15" Column="53" />
-      <File FileName="Address.cs" Line="28" Column="21" />
+      <File FileName="Program.cs" Line="19" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Lesson12 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Lesson13 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
